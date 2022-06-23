@@ -5,7 +5,7 @@ export const Contact = () => {
                 <div className="contact-contents">
                     <h2>Contact to Me!</h2>
                     <p className="description">お仕事のご相談・ご依頼などは下記よりご連絡ください</p>
-                    <a href="https://qiita.com/yutowac"  target="_blank" className="btn">Contact Us</a>
+                    <a href="https://qiita.com/yutowac"  target="_blank" rel="noopener noreferrer" className="btn">Contact Us</a>
                 </div>
             </div>
         </div>

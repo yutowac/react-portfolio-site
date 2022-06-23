@@ -18,17 +18,17 @@ export const Header = () => {
 						<h3 className='title-text'>Mashine Learning Engineer</h3>
 						<ul className='social-icons'>
 							<li className='icon-link'>
-								<a href="https://www.linkedin.com/in/wachi-yuto-b43ab3a2/" target="_blank">
+								<a href="https://www.linkedin.com/in/wachi-yuto-b43ab3a2/" target="_blank" rel="noopener noreferrer">
 									<FaLinkedin color='white' size='2em' />
 								</a>
 							</li>
 							<li className='icon-link'>
-								<a href="https://twitter.com" target="_blank">
+								<a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
 									<FaTwitter color='white' size='2em' />
 								</a>
 							</li>
 							<li className='icon-link'>
-								<a href="https://github.com/yutowac?tab=repositories" target="_blank">
+								<a href="https://github.com/yutowac?tab=repositories" target="_blank" rel="noopener noreferrer">
 									<FaGithub color='white' size='2em' />
 								</a>
 							</li>
