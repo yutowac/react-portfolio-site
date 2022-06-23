@@ -1,8 +1,8 @@
 import Circle from 'react-circle';
 // import { useEffect, useState } from "react";
-import { useEffect, useReducer } from "react";
-import axios from 'axios';
-import { skillReducer, initialState, actionTypes } from '../reducers/skillReducer';
+// import { useEffect, useReducer } from "react";
+// import axios from 'axios';
+// import { skillReducer, initialState, actionTypes } from '../reducers/skillReducer';
 import { requestStates } from "../constants";
 import { useSkills } from '../customHooks/useSkills';
 
