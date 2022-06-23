@@ -6,7 +6,7 @@
 import { requestStates } from "../constants";
 import { useSkills } from '../customHooks/useSkills';
 
-const _url = 'https://api.github.com/users/yutowac/repos'
+// const _url = 'https://api.github.com/users/yutowac/repos'
 
 export const Skills = () => {
     const [sortedLanguageList, fetchRequestState, converseCountToPercentage] = useSkills();
