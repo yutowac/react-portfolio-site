@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { FaBeer } from 'react-icons/fa';
+// import { FaBeer } from 'react-icons/fa';
 
-class Question extends React.Component {
-  render() {
-    return <h3> Lets go for a <FaBeer />?</h3>
-  }
-}
+// class Question extends React.Component {
+//   render() {
+//     return <h3> Lets go for a <FaBeer />?</h3>
+//   }
+// }
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
