@@ -69,7 +69,7 @@ export const Skills = () => {
                                         animate
                                         progress={converseCountToPercentage(item.count)}
                                     /> */}
-                                    <div className="circlepretend">{converseCountToPercentage(item.count)}</div>
+                                    <div className="circlepretend">{converseCountToPercentage(item.count)}%</div>
                                 </div>
                             ))
                         )

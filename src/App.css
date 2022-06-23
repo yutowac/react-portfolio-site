@@ -56,11 +56,15 @@ h3 {
 .social-icons {
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .social-icons li{
-  margin: 0;
+  margin: 24px 0 0 0;
   padding: 0;
+  list-style: none;
+  display: inline-block;
 }
 
 .social-icons li a{
@@ -130,7 +134,7 @@ h3 {
   line-height: 100px;
   height: 100px;
   width: 100px;
-  border: #30bfba 2px solid;
+  border: #30bfba 4px solid;
   border-radius: 50%;
 }
 
