@@ -1,6 +1,8 @@
 import CoverImage from '../images/cover-image.jpg'
 import ProfileImage from '../images/profile-image.jpg'
-import { FaTwitter, FaGithub } from 'react-icons/fa';
+import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { GiDonut } from 'react-icons/gi';
+
 
 export const Header = () => {
 	return (
@@ -16,6 +18,11 @@ export const Header = () => {
 						<h3 className='title-text'>Mashine Learning Engineer</h3>
 						<ul className='social-icons'>
 							<li className='icon-link'>
+								<a href="https://www.linkedin.com/in/wachi-yuto-b43ab3a2/">
+									<FaLinkedin color='white' size='2em' />
+								</a>
+							</li>
+							<li className='icon-link'>
 								<a href="https://twitter.com">
 									<FaTwitter color='white' size='2em' />
 								</a>
@@ -23,6 +30,11 @@ export const Header = () => {
 							<li className='icon-link'>
 								<a href="https://github.com/yutowac?tab=repositories">
 									<FaGithub color='white' size='2em' />
+								</a>
+							</li>
+							<li className='icon-link'>
+								<a href="https://cocky-hawking-db8648.netlify.app/">
+									<GiDonut color='white' size='2em' />
 								</a>
 							</li>
 						</ul>
