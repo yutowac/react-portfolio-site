@@ -115,10 +115,23 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  /* margin: 0 auto; */
+  justify-content: center;
 }
 
 .skill-item {
   margin: 0 48px;
+}
+
+.circlepretend {
+  margin: 0 auto;
+  /* text-align: center;
+  vertical-align: middle; */
+  line-height: 100px;
+  height: 100px;
+  width: 100px;
+  border: #30bfba 2px solid;
+  border-radius: 50%;
 }
 
 /* contact */

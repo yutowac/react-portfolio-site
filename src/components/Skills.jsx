@@ -1,8 +1,8 @@
-import Circle from 'react-circle';
+// import Circle from 'react-circle';
 // import { useEffect, useState } from "react";
-import { useEffect, useReducer } from "react";
-import axios from 'axios';
-import { skillReducer, initialState, actionTypes } from '../reducers/skillReducer';
+// import { useEffect, useReducer } from "react";
+// import axios from 'axios';
+// import { skillReducer, initialState, actionTypes } from '../reducers/skillReducer';
 import { requestStates } from "../constants";
 import { useSkills } from '../customHooks/useSkills';
 
@@ -65,10 +65,11 @@ export const Skills = () => {
                             sortedLanguageList().map((item, index)=> (
                                 <div className="skill-item" key={index}>
                                     <p className="description"><strong>{item.language}</strong></p>
-                                    <Circle
+                                    {/* <Circle
                                         animate
                                         progress={converseCountToPercentage(item.count)}
-                                    />
+                                    /> */}
+                                    <div className="circlepretend">{converseCountToPercentage(item.count)}</div>
                                 </div>
                             ))
                         )
