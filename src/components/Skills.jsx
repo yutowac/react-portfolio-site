@@ -1,4 +1,5 @@
-import Circle from 'react-circle';
+// import Circle from 'react-circle';
+
 // import { useEffect, useState } from "react";
 // import { useEffect, useReducer } from "react";
 // import axios from 'axios';
@@ -65,10 +66,11 @@ export const Skills = () => {
                             sortedLanguageList().map((item, index)=> (
                                 <div className="skill-item" key={index}>
                                     <p className="description"><strong>{item.language}</strong></p>
-                                    <Circle
+                                    {/* <Circle
                                         animate
                                         progress={converseCountToPercentage(item.count)}
-                                    />
+                                    /> */}
+                                    <p>{converseCountToPercentage(item.count)}</p>
                                 </div>
                             ))
                         )
